@@ -58,7 +58,30 @@ quotes = [
   "Our greatest glory is not in never falling, but in rising every time we fall",
   "Better a diamond with a flaw than a pebble without",
   "Only the wisest and stupidest of men never change",
-  "In the end, it's not the years in your life that count. It's the life in your years"
+  "In the end, it's not the years in your life that count. It's the life in your years",
+  "I'm not a businessman, I'm a business, man",
+  "When you invite people to your home, you invite them to yourself",
+  "You can have it all. You just can't have it all at once",
+  "Whatever you fear most has no power - it is your fear that has the power",
+  "The more you praise and celebrate your life, the more there is in life to celebrate",
+  "Devote today to something so daring even you can’t believe you’re doing it",
+  "A friend's frown is better than a fool's smile",
+  "A friend is easier lost than found",
+  "Before you meet the handsome prince you have to kiss a lot of toads",
+  "If you can't handle me at my worst, you don't deserve me at my best",
+  "Brevity is the soul of wit",
+  "In the land of the blind, the one-eyed man is king",
+  "Early to bed, early to rise, makes you healthy, wealthy & wise",
+  "Melts in your mouth, not in your hand",
+  "Sticks and stones may break my bones but words will never hurt me",
+  "Better to stay silent and be thought a fool, than to open one's mouth and remove all doubt",
+  "When a fox hears a rabbit screaming it comes running, but not to help",
+  "It's easier to do a job right, than to explain why you didn't",
+  "We choose to go to the moon and do the other things, not because they are easy, but because they are hard!",
+  "That's no moon",
+  "Do, or do not. There is no try",
+  "If you strike me down, I shall become more powerful than you could ever imagine",
+  "I find your lack of faith disturbing"
 ]
 
 people = [
@@ -66,6 +89,7 @@ people = [
   "Winnie the Pooh",
   "Gandalf",
   "Yoda",
+  "Chewbacca",
   "Thomas Edison",
   "Teddy Roosevelt",
   "P.T. Barnum",
@@ -83,7 +107,14 @@ people = [
   "Buddha",
   "Groucho Marx",
   "C.S. Lewis",
-  "Bob Dylan"
+  "Bob Dylan",
+  "Kermit",
+  "Obi Wan",
+  "King Henry VIII",
+  "Marilyn Monroe",
+  "Martin Van Buren",
+  "Ronald Reagan",
+  "Captain Pickard"
 ]
 
 selected_quote = quotes.sample
