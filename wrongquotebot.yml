@@ -1,5 +1,6 @@
 ---
-:consumer_key: ggGlHXQMGjcCnuWtQ0bwzOjwn
-:consumer_secret: JU6IZXlQfxRXhuYkknYXtxtCd16vgUoWNqI1Zy2dj0ptEG4K11
-:token: 3798547993-GPA5mlsLNKyQST98aknDyOfTOwCkG1zFV8Qpeuh
-:secret: UXCg6rvZU7EReABq7IrkcSW3EHFFBdcLZbfdeunoxhWJN
+ENV: DEVELOPMENT
+consumer_key: q7UTq0oUGJka7rZM7etqMHJls
+consumer_secret: BCF9TaHX7UEIyVnLO0wVMfFq1kWSfno7C8Q7e3ZOc8EyrABP7N
+token: 4097400133-PEkPXjM32dd68s8gEF0x1n1tMaGyKP9H9UKCdLG
+secret: tEQrxal8pYaBUVOaiZ3wXzpJVbuFVRl6qJcUMlnQc0eVw
