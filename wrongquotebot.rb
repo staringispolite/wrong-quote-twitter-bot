@@ -37,10 +37,60 @@ blacklist "abc", "def"
 exclude "hi", "spammer", "junk"
 exclude "http://", "https://"
 
-streaming do
-  replies do |tweet|
-    puts "replying to tweet "
-    reply "#{tweet_user(tweet)} %s" % "hello world!"
-  end
-  # Don't go crazy with the infinite looping
+quotes = [
+  "Use the force, Harry",
+  "The wonderful thing about Tiggers, is I'm the only one!",
+  "What I like doing best is Nothing",
+  "A bear, however hard he tries, grows tubby without exercise",
+  "It never gets easier, you just get better",
+  "If opportunity doesn't knock, build a door",
+  "Don't believe everything you read on the internet",
+  "If you have no critics you'll likely have no success",
+  "If life gives you lemons, make lemonade. Then find someone whose life gave them vodka, and have a party",
+  "I love deadlines. I like the whooshing sound they make as they fly by",
+  "Weather forecast for tonight: dark",
+  "Behind every great man is a woman rolling her eyes",
+  "Don't cry because it's over. Smile because it happened",
+  "Adults are just outdated children",
+  "I like nonsense; it wakes up the brain cells",
+  "If you're going through hell: keep going",
+  "Choose a job you love, and you will never have to work a day in your life",
+  "Our greatest glory is not in never falling, but in rising every time we fall",
+  "Better a diamond with a flaw than a pebble without",
+  "Only the wisest and stupidest of men never change",
+  "In the end, it's not the years in your life that count. It's the life in your years"
+]
+
+people = [
+  "Abe Lincoln",
+  "Winnie the Pooh",
+  "Gandalf",
+  "Yoda",
+  "Thomas Edison",
+  "Teddy Roosevelt",
+  "P.T. Barnum",
+  "Robert E. Lee",
+  "Albert Einstein",
+  "Napoleon",
+  "Malcolm X",
+  "Isaac Asimov",
+  "Mother Theresa",
+  "Dr. Seuss",
+  "Confucius",
+  "Muhammed Ali",
+  "Winston Churchill",
+  "Shakespeare",
+  "Buddha",
+  "Groucho Marx",
+  "C.S. Lewis",
+  "Bob Dylan"
+]
+
+selected_quote = quotes.sample
+selected_person = people.sample
+
+loop do
+  tweet "\"%s\" \n-%s #quote" % [selected_quote, selected_person]
+  # Once an hour.
+  sleep(3600)
 end
