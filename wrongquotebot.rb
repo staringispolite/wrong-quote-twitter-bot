@@ -86,6 +86,12 @@ quotes = [
 
 people = [
   "Abe Lincoln",
+  "Moby Dick",
+  "Wayne Gretsky",
+  "Michael Scott",
+  "Clifford the Big Red Dog",
+  "Frankenstein",
+  "Aquaman",
   "Winnie the Pooh",
   "Gandalf",
   "Yoda",
