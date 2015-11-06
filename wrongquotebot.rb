@@ -37,6 +37,7 @@ blacklist "abc", "def"
 exclude "hi", "spammer", "junk"
 exclude "http://", "https://"
 
+# Max is 106 chars.
 quotes = [
   "Use the force, Harry",
   "The wonderful thing about Tiggers, is I'm the only one!",
@@ -84,6 +85,7 @@ quotes = [
   "I find your lack of faith disturbing"
 ]
 
+# Max is 24 chars.
 people = [
   "Abe Lincoln",
   "Moby Dick",
@@ -123,11 +125,23 @@ people = [
   "Captain Pickard"
 ]
 
+# Max of 14 chars.
+hashtags = [
+  "#quote",
+  "#QOTD",
+  "#quotes",
+  "#motivation",
+  "quoteoftheday",
+  "quotestoliveby"
+  "#inspiration"
+]
+
 selected_quote = quotes.sample
 selected_person = people.sample
+selected_hashtag = hashtags.sample
 
 loop do
-  tweet "\"%s\" \n-%s #quote" % [selected_quote, selected_person]
+  tweet "\"%s\" \n-%s %s" % [selected_quote, selected_person, selected_hashtag]
   # Once an hour.
   sleep(3600)
 end
