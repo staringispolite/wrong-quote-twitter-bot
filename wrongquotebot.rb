@@ -132,7 +132,7 @@ hashtags = [
   "#quotes",
   "#motivation",
   "quoteoftheday",
-  "quotestoliveby"
+  "quotestoliveby",
   "#inspiration"
 ]
 
