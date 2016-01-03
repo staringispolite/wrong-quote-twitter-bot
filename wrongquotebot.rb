@@ -82,7 +82,17 @@ quotes = [
   "That's no moon",
   "Do, or do not. There is no try",
   "If you strike me down, I shall become more powerful than you could ever imagine",
-  "I find your lack of faith disturbing"
+  "I find your lack of faith disturbing",
+  "One has to kill a few of one's natural selves to let the rest grow - a painful slaughter of innocents",
+  "Like Korosawa, I make mad films. K, I don't make films. But if I did, they'd have a samurai",
+  "Everything has its beauty, but not everyone sees it",
+  "The heroes are the ones still changing, while the villains are locked, petrified, into what they are",
+  "The truth is only harsh for those with delusions",
+  "Get in tune with Sailor Moon cuz that cartoon has got the BOOM anime babes that make me think the wrong thing",
+  "I have a tendency to wear my mind on my sleeve. I have a history of losing my shirt",
+  "Don't be mad once you see that he want it. If you liked it then you should've put a ring on it",
+  "The first cut is the deepest",
+  "You can't always get what you want. But if you try sometimes, you just might find, you can get what you need"
 ]
 
 # Max is 24 chars.
@@ -122,7 +132,12 @@ people = [
   "Marilyn Monroe",
   "Martin Van Buren",
   "Ronald Reagan",
-  "Captain Pickard"
+  "Captain Pickard",
+  "Kurosawa",
+  "Fred Durst",
+  "Hamilton",
+  "Beyonce",
+  "Bob Dylan"
 ]
 
 # Max of 14 chars.
@@ -131,8 +146,8 @@ hashtags = [
   "#QOTD",
   "#quotes",
   "#motivation",
-  "quoteoftheday",
-  "quotestoliveby",
+  "#quoteoftheday",
+  "#quotestoliveby",
   "#inspiration"
 ]
 
