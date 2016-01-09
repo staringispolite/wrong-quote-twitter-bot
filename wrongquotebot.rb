@@ -148,7 +148,8 @@ hashtags = [
   "#motivation",
   "#quoteoftheday",
   "#quotestoliveby",
-  "#inspiration"
+  "#inspiration",
+  "#olivegarden"
 ]
 
 selected_quote = quotes.sample
